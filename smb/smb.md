@@ -1,6 +1,4 @@
-# Notes for hacking
-
-### SMB Enumeration (INE)
+### SMB Enumeration with NMAP (INE)
 ```bash
 nmap -p445 --script smb-protocols <IP>
 
@@ -23,6 +21,3 @@ nmap -p445 --script smb-enum-services --script-args smbusername=<username>,smbpa
 nmap -p445 --script smb-enum-shares,smb-ls --script-args smbusername=<username>,smbpassword=<password> <IP>
 
 ```
-
-
-
