@@ -1,4 +1,5 @@
 ### SMB Enumeration with NMAP (INE)
+[home](../README.md)
 ```bash
 nmap -p445 --script smb-protocols <IP>
 
@@ -19,5 +20,5 @@ nmap -p445 --script smb-server-stats --script-args smbusername=<username>,smbpas
 nmap -p445 --script smb-enum-services --script-args smbusername=<username>,smbpassword=<password> <IP>
 
 nmap -p445 --script smb-enum-shares,smb-ls --script-args smbusername=<username>,smbpassword=<password> <IP>
-
 ```
+[home](../README.md)
